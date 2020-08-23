@@ -1,0 +1,40 @@
+body {
+    background-color: #f1f1f1;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  }
+  #app {
+    max-width: 520px;
+    margin: auto;
+  }
+  .message {
+    display: flex;
+    flex-direction: column;
+  }
+  .send, .receive {
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+  }
+  .send {
+    align-self: flex-end;
+    background-color: orange;
+  }
+  .receive {
+    align-self: flex-start;
+    background-color: #c3ff67;
+  }
+  .chat-text {
+    padding: 12px;
+    border-top: 1px solid #ccc;
+  }
+  .welcome {
+    color: #870923;
+    padding: 8px 12px;
+    border-radius: 5px;
+    align-self: center;
+    margin-bottom: 12px;
+    background-color: pink;
+  }
+  .first-screen {
+    margin-top: 120px;
+  }
